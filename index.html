@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Éclat de Mayotte — Recyclage, Revalorisation, Transformation & Réemploi</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f7f3ec;color:#17352b}
+header{background:linear-gradient(135deg,#075e54,#0b806b);color:white;padding:28px 18px;text-align:center}
+.logo{font-size:34px;font-weight:800}.tag{margin-top:7px}
+nav{background:white;display:flex;gap:8px;overflow:auto;padding:10px;position:sticky;top:0;z-index:5}
+nav a{white-space:nowrap;text-decoration:none;color:#075e54;font-weight:bold;padding:10px 12px;border-radius:20px;background:#edf5f1}
+.hero{padding:35px 20px;text-align:center;background:#fff}
+.hero h1{font-size:31px;margin:5px 0 12px}.hero p{font-size:17px;line-height:1.5}
+.btn{display:inline-block;background:#e7a623;color:#172f26;text-decoration:none;font-weight:bold;padding:14px 18px;border-radius:12px;margin:6px 3px}
+main{max-width:850px;margin:auto;padding:18px}.card{background:white;padding:22px;margin:16px 0;border-radius:18px;box-shadow:0 3px 14px #00000012}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tile{padding:18px;background:#eef6f1;border-radius:14px}.tile b{display:block;margin-bottom:6px}
+form{display:grid;gap:11px}input,select,textarea{width:100%;padding:13px;border:1px solid #ccd8d2;border-radius:10px;font:inherit}textarea{min-height:100px}
+.submit{border:0;background:#075e54;color:white;padding:14px;border-radius:12px;font-weight:bold;font-size:16px}
+footer{background:#17352b;color:white;text-align:center;padding:28px 18px;margin-top:20px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.hero h1{font-size:27px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">✨ Éclat de Mayotte</div>
+<div class="tag">Recyclage • Revalorisation • Transformation • Réemploi • Services • Événements</div>
+</header>
+
+<nav>
+<a href="#services">Valorisation</a><a href="#microservices">Micro-services</a><a href="#demande">Demande</a><a href="#evenements">Événements</a><a href="#cadeaux">Cadeaux</a><a href="#ressources">Aides</a><a href="#partenaires">Partenaires</a><a href="#fournisseurs">Fournisseurs</a><a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Donner une nouvelle vie aux matières, aux objets et aux événements</h1>
+<p>Une plateforme locale dédiée au recyclage, à la revalorisation, à la transformation et au réemploi, avec des micro-services de proximité, de l'événementiel et des créations souvenirs.</p>
+<a class="btn" href="#demande">Faire une demande</a>
+<a class="btn" href="#cadeaux">Voir les cadeaux</a>
+</section>
+
+<main>
+<section class="card" id="services">
+<h2>♻️ Le cœur d'Éclat de Mayotte</h2>
+<p>Notre activité principale consiste à récupérer des matières et objets, les trier, les revaloriser, les transformer et leur donner une seconde vie.</p>
+<div class="grid">
+<div class="tile"><b>🪵 Bois</b>Réemploi, mobilier, objets décoratifs et créations.</div>
+<div class="tile"><b>🔩 Métaux</b>Tri, récupération, transformation et création.</div>
+<div class="tile"><b>♻️ Plastiques</b>Tri, broyage et transformation selon les filières adaptées.</div>
+<div class="tile"><b>🚗 Pneus</b>Valorisation des composants et réemploi des matières.</div>
+<div class="tile"><b>🍾 Verre</b>Réemploi, transformation et objets souvenirs.</div>
+<div class="tile"><b>🌱 Biomasse</b>Valorisation organique, compostage et pépinière.</div>
+</div>
+</section>
+
+<section class="card" id="demande">
+<h2>📨 Déposer une demande</h2>
+<p>Le client choisit son profil et décrit sa demande. Cette première version prépare le formulaire ; il pourra ensuite être relié à ton WhatsApp, ton email ou une vraie base de données.</p>
+<form onsubmit="event.preventDefault();alert('Votre demande est prête à être envoyée. Dans la version finale, elle sera transmise directement à Éclat de Mayotte.');">
+<select required><option value="">Vous êtes…</option><option>Particulier</option><option>Entreprise</option><option>Association</option><option>Organisateur d'événement</option></select>
+<input required placeholder="Nom / entreprise">
+<input required type="tel" placeholder="Téléphone">
+<input type="email" placeholder="Email">
+<select required><option value="">Type de demande</option><option>Service</option><option>Événement</option><option>Cadeau / souvenir</option><option>Commande</option><option>Autre</option></select>
+<textarea required placeholder="Décrivez votre demande, date de l'événement, quantité, budget indicatif, etc."></textarea>
+<button class="submit">Envoyer ma demande</button>
+</form>
+</section>
+
+<section class="card" id="microservices">
+<h2>🛠️ Micro-services de proximité</h2>
+<p>Des petits services pratiques proposés aux particuliers, entreprises, associations et professionnels, en complément de l'activité de valorisation.</p>
+<div class="grid">
+<div class="tile"><b>📦 Collecte & dépôt</b>Collecte d'objets, matériaux ou encombrants selon les conditions du service.</div>
+<div class="tile"><b>🧹 Débarras & remise en état</b>Aide au tri, au rangement et à l'évacuation des éléments valorisables.</div>
+<div class="tile"><b>🔧 Petites réalisations</b>Fabrication, réparation ou adaptation d'objets issus du réemploi.</div>
+<div class="tile"><b>🎨 Création sur commande</b>Objets décoratifs, mobilier et créations personnalisées.</div>
+<div class="tile"><b>🚚 Livraison / transport</b>Livraison de créations et prestations logistiques selon les possibilités.</div>
+<div class="tile"><b>🏢 Services aux entreprises</b>Collecte, tri, valorisation et commandes personnalisées.</div>
+</div>
+<a class="btn" href="#demande">Demander un micro-service</a>
+</section>
+
+<section class="card" id="evenements">
+<h2>🎉 Événementiel & souvenirs</h2>
+<p>Éclat de Mayotte peut aussi accompagner les événements avec des créations réemployées, de la décoration, des cadeaux invités et des souvenirs personnalisés.</p>
+<div class="grid">
+<div class="tile"><b>Mariages</b>Décoration, cadeaux invités et souvenirs.</div>
+<div class="tile"><b>Anniversaires</b>Créations personnalisées et souvenirs.</div>
+<div class="tile"><b>Cérémonies</b>Objets commémoratifs et décoration.</div>
+<div class="tile"><b>Entreprises</b>Événements, cadeaux clients et objets personnalisés.</div>
+</div>
+<a class="btn" href="#demande">Organiser un événement</a>
+</section>
+
+<section class="card" id="cadeaux">
+<h2>🎁 Cadeaux & souvenirs de Mayotte</h2>
+<p>Une boutique peut présenter des créations locales et personnalisées : souvenirs, objets décoratifs, cadeaux pour invités, cadeaux d'entreprise et pièces réalisées sur commande.</p>
+<div class="grid">
+<div class="tile">🌴 Souvenir de Mayotte</div>
+<div class="tile">🎁 Cadeau personnalisé</div>
+<div class="tile">💍 Cadeau événementiel</div>
+<div class="tile">🏢 Cadeau d'entreprise</div>
+</div>
+<a class="btn" href="#demande">Demander un cadeau personnalisé</a>
+</section>
+
+
+<section class="card" id="ressources">
+<h2>💶 Aides, ressources & accompagnement</h2>
+<p>Cette rubrique rassemble des organismes et dispositifs à consulter pour vérifier les aides, financements et accompagnements adaptés au projet. L'éligibilité dépend du statut, du projet, des dépenses et des conditions de chaque dispositif.</p>
+<div class="grid">
+<div class="tile"><b>🏛️ Conseil départemental / DDEI</b>Création, développement, investissement et autres dispositifs économiques.</div>
+<div class="tile"><b>🏢 CCI Mayotte</b>Accompagnement du projet, développement durable et économie circulaire.</div>
+<div class="tile"><b>🌱 ADEME Océan Indien</b>Accompagnement technique et financier des projets de transition écologique et économie circulaire.</div>
+<div class="tile"><b>🤝 CRESS Mayotte</b>Réseau et accompagnement liés à l'économie sociale et solidaire.</div>
+<div class="tile"><b>🚀 ADIM / France 2030</b>Innovation, développement et recherche de financements selon les appels ouverts.</div>
+<div class="tile"><b>🏦 Bpifrance</b>Financement et accompagnement selon les dispositifs applicables au projet.</div>
+</div>
+<p>
+<a class="btn" href="https://www.mayotte.fr/services-en-ligne/demarches-et-aides/aides-aux-entreprises" target="_blank">Aides du Département</a>
+<a class="btn" href="https://www.mayotte.cci.fr/accompagnement-au-developpement/developpement-durable/" target="_blank">CCI — développement durable</a>
+<a class="btn" href="https://www.ademe.fr/direction-regionale/ocean-indien/" target="_blank">ADEME Océan Indien</a>
+</p>
+</section>
+
+<section class="card" id="partenaires">
+<h2>🤝 Partenaires & réseau à développer</h2>
+<p>Cette page servira à présenter les partenaires confirmés. En attendant les accords officiels, les organismes ci-dessous sont des <b>partenaires potentiels à contacter</b>, pas des partenaires déjà engagés avec Éclat de Mayotte.</p>
+<div class="grid">
+<div class="tile"><b>CCI Mayotte</b>Accompagnement entrepreneurial et développement durable.</div>
+<div class="tile"><b>ADEME Océan Indien</b>Transition écologique et économie circulaire.</div>
+<div class="tile"><b>CRESS Mayotte</b>Réseau ESS et projets d'économie circulaire.</div>
+<div class="tile"><b>SIDEVAM 976</b>Acteur public du service de collecte et traitement des déchets ménagers sur son périmètre.</div>
+<div class="tile"><b>DEALM Mayotte</b>Références et cadre réglementaire concernant la gestion des déchets.</div>
+<div class="tile"><b>Entreprises locales</b>Collecteurs, recycleurs, artisans, transporteurs et fournisseurs à contractualiser.</div>
+</div>
+</section>
+
+<section class="card" id="fournisseurs">
+<h2>🚚 Fournisseurs & prestataires</h2>
+<p>Une rubrique dédiée pour demander des devis et comparer les fournisseurs nécessaires au développement du projet.</p>
+<div class="grid">
+<div class="tile"><b>⚙️ Machines</b>Broyeurs, presses, compacteurs, équipements de tri et outils de transformation.</div>
+<div class="tile"><b>🦺 Sécurité</b>EPI, vêtements de travail, équipements de protection et produits d'hygiène.</div>
+<div class="tile"><b>🚛 Logistique</b>Bennes, véhicules, transport, manutention et stockage.</div>
+<div class="tile"><b>🔧 Maintenance</b>Entretien des machines, pièces détachées et maintenance industrielle.</div>
+</div>
+<p><b>Exemple de fournisseur local à étudier :</b> MAHONET, à Kawéni, propose notamment des EPI, produits d'hygiène, maintenance industrielle et machines de nettoyage. Il faudra demander un devis et vérifier l'adéquation aux besoins du projet.</p>
+<a class="btn" href="https://www.mahonet.fr/" target="_blank">Voir MAHONET</a>
+</section>
+
+<section class="card" id="contact">
+<h2>📞 Contact</h2>
+<p>📍 Mayotte</p>
+<p>📱 Téléphone / WhatsApp : <a href="https://wa.me/262639031182" target="_blank">06 39 03 11 82</a></p>
+<p>✉️ Email : <a href="mailto:eeclatdemayotte@gmail.com">eeclatdemayotte@gmail.com</a></p>
+<a class="btn" href="https://wa.me/262639031182?text=Bonjour%20Éclat%20de%20Mayotte%2C%20je%20souhaite%20faire%20une%20demande." target="_blank">💬 Contacter sur WhatsApp</a><div id="whatsapp" class="tile"><b>WhatsApp professionnel</b><br>06 39 03 11 82</div>
+</section>
+</main>
+
+<footer>
+<b>Éclat de Mayotte</b><br>
+Recyclage • Revalorisation • Transformation • Réemploi • Services • Événements<br><br>
+<small>Prototype de site mobile — informations de contact à personnaliser</small>
+</footer>
+</body>
+</html>
